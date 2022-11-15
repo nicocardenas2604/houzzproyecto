@@ -14,17 +14,14 @@ body {
 .navbar {
   background-color: #8f9588;
 }
-
 .navbar .justify-content-end {
   justify-content: flex-end !important;
   margin-right: 10px;
 }
-
 .navbar .logopag {
   height: 60px;
   width: auto;
 }
-
 .navbar .navbar-nav {
   text-transform: capitalize;
 }
@@ -33,10 +30,9 @@ body {
   max-height: 700px;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-bottom: 80px;
 }
-
 .fotoinicio .imagen {
   text-align: center;
 }
@@ -61,36 +57,39 @@ footer {
   margin-top: auto;
   width: 100%;
 }
-
 footer .redes {
   font-size: 30px;
   letter-spacing: 10px;
 }
-
 footer .redes a {
   color: black;
 }
-
 footer .redes a:hover {
   color: white;
 }
 
 /* servicios */
+.texto {
+  color: white;
+  text-align: justify;
+  padding: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
 .video {
   text-align: center;
   margin-top: 30px;
 }
-
 .video iframe {
   height: 350px;
-  width: 100%;
+  width: 600px;
 }
 
 .lista {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 40px;
   color: white;
 }
 
@@ -103,14 +102,22 @@ footer .redes a:hover {
 .textoNosotros {
   padding: 30px;
 }
-
 .textoNosotros .texto {
   color: white;
   text-align: justify;
   padding: 1%;
+  font-family: "Roboto", sans-serif;
 }
 
 /* galeria */
+h4 {
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "roboto", sans-serif;
+  font-style: italic;
+}
+
 .galeria-cont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,15 +126,13 @@ footer .redes a:hover {
   grid-gap: 10px;
   width: 100%;
 }
-
 .galeria-cont .gal-img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border: 2px solid;
 }
-
 .galeria-cont .gal-img:hover {
   scale: 1.05;
   transition: 0.5s;
@@ -138,16 +143,16 @@ footer .redes a:hover {
   color: white;
   text-align: justify;
   padding: 1%;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 form {
   padding: 2%;
 }
-
 form label {
   color: white;
 }
-
 form .btn {
   margin: 1%;
 }
@@ -157,23 +162,21 @@ form .btn {
     grid-template-columns: 1fr;
     grid-auto-rows: 200px;
   }
+  .video iframe {
+    width: 100%;
+  }
 }
-
 @media only screen and (max-width: 900px) {
   .enlace {
     padding-left: 20px;
   }
-
   .galeria-cont {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 200px;
   }
 }
-
 @media only screen and (min-width: 901px) {
   .item6 {
     grid-row-start: span 2;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
