@@ -83,26 +83,67 @@ footer {
 }
 
 /* servicios */
-.texto {
-    @include textos;
-}
-
-.video {
-    text-align: center;
+.titulo-ser {
+    color: white;
     margin-top: 30px;
-
-    iframe {
-        height: 350px;
-        width: 600px;
-    }
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "roboto", sans-serif;
 }
 
 .lista {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 50px;
     color: white;
+    font-size: 20px;
+}
+
+.cons-sec {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    background-color: #8f9588;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.nleft {
+    display: block;
+    background-color: white;
+
+    ul {
+        li {
+            list-style-type: '✔';
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
+
+.nright {
+    background-image: url(imagenes/construccion-en-seco-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 0;
+
+}
+
+.video {
+    text-align: center;
+    margin-top: 40px;
+
+    iframe {
+        height: 350px;
+        width: 600px;
+    }
 }
 
 /* nosotros */
@@ -120,7 +161,7 @@ footer {
 }
 
 /* galeria */
-h4 {
+.titulo-gal {
     color: white;
     margin-top: 30px;
     margin-left: 20px;

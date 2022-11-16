@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -69,28 +70,62 @@ footer .redes a:hover {
 }
 
 /* servicios */
-.texto {
+.titulo-ser {
   color: white;
-  text-align: justify;
-  padding: 1%;
-  font-family: "Roboto", sans-serif;
-}
-
-.video {
-  text-align: center;
   margin-top: 30px;
-}
-.video iframe {
-  height: 350px;
-  width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "roboto", sans-serif;
 }
 
 .lista {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 50px;
   color: white;
+  font-size: 20px;
+}
+
+.cons-sec {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "roboto", sans-serif;
+  font-style: italic;
+  background-color: #8f9588;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.nleft {
+  display: block;
+  background-color: white;
+}
+.nleft ul li {
+  list-style-type: "✔";
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.nright {
+  background-image: url(imagenes/construccion-en-seco-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin-top: 0;
+}
+
+.video {
+  text-align: center;
+  margin-top: 40px;
+}
+.video iframe {
+  height: 350px;
+  width: 600px;
 }
 
 /* nosotros */
@@ -110,7 +145,7 @@ footer .redes a:hover {
 }
 
 /* galeria */
-h4 {
+.titulo-gal {
   color: white;
   margin-top: 30px;
   margin-left: 20px;
