@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: #8f9588;
+  background-color: rgba(143, 149, 136, 0.7254901961);
 }
 .navbar .justify-content-end {
   justify-content: flex-end !important;
@@ -48,7 +48,7 @@ h3 {
 }
 
 footer {
-  background-color: #8f9588;
+  background-color: rgba(143, 149, 136, 0.7254901961);
   text-align: center;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,7 +93,7 @@ footer .redes a:hover {
   font-size: 30px;
   font-family: "roboto", sans-serif;
   font-style: italic;
-  background-color: #8f9588;
+  background-color: rgba(143, 149, 136, 0.7254901961);
   padding: 10px;
   margin-bottom: 0;
 }
@@ -132,6 +132,10 @@ footer .redes a:hover {
 .mapa {
   text-align: center;
   border-radius: 50px;
+}
+.mapa iframe {
+  height: 350px;
+  width: 500px;
 }
 
 .textoNosotros {
@@ -180,6 +184,7 @@ footer .redes a:hover {
   padding: 1%;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 form {
@@ -188,9 +193,6 @@ form {
 form label {
   color: white;
 }
-form .btn {
-  margin: 1%;
-}
 
 @media only screen and (max-width: 600px) {
   .galeria-cont {
@@ -198,6 +200,9 @@ form .btn {
     grid-auto-rows: 200px;
   }
   .video iframe {
+    width: 100%;
+  }
+  .mapa iframe {
     width: 100%;
   }
 }

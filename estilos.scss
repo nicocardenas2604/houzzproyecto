@@ -6,7 +6,7 @@
 
 // colores
 $color-texto:white;
-$color-encabezados:#8f9588;
+$color-encabezados:#8f9588b9;
 
 // mixin para los textos
 @mixin textos {
@@ -154,6 +154,11 @@ footer {
 .mapa {
     text-align: center;
     border-radius: 50px;
+
+    iframe {
+        height: 350px;
+        width: 500px;
+    }
 }
 
 .textoNosotros {
@@ -199,6 +204,7 @@ footer {
     .texto {
         @include textos;
         font-size: 20px;
+        margin-left: 10px;
     }
 }
 
@@ -209,9 +215,6 @@ form {
         color: white;
     }
 
-    .btn {
-        margin: 1%;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -221,6 +224,12 @@ form {
     }
 
     .video {
+        iframe {
+            width: 100%;
+        }
+    }
+
+    .mapa {
         iframe {
             width: 100%;
         }
